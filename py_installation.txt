@@ -1,0 +1,12 @@
+# Search for all python3 packages
+sudo apt-cache search python3 | grep python3
+
+# Install Python3
+sudo apt-get install python3
+sudo apt-get install python3-pip
+
+# Mysql for Python3
+sudo apt-get install python3-pymysql
+sudo apt-get install python3-mysqld
+sudo apt-get install python3-mysql.connector 
+
