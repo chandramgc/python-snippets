@@ -18,3 +18,4 @@ finally:
 
 # Listen msg using nc command
 # nc -l 5555
+# Run this command befor running the script

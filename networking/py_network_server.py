@@ -3,7 +3,7 @@
 import socket
 
 size = 512
-host = 'localhost'
+host = ''
 port = 9898
 
 # Family = Internet, type = stream socket mean TCP
@@ -15,7 +15,7 @@ sock.bind((host, port))
 sock.listen(5)
 # We can store information about the other end
 # once we accept the connectio attempt
-c, addr = sock.accept()
+c,addr = sock.accept()
 data = c.recv(size)
 if data:
   f = open("storage.dat", '+w')
@@ -28,4 +28,5 @@ sock.close()
 
 
 # Listen msg using nc command
-# nc -l 5555
+# nc localhost 9898
+# Run this command after running the python script
