@@ -1,0 +1,5 @@
+venv
+large_project/venv
+*__pycache__
+large_project/dist/*
+.vscode/*
